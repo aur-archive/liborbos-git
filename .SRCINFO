@@ -1,0 +1,28 @@
+pkgbase = liborbos-git
+	pkgdesc = Collection of useful libraries made for Orbos' C programs.
+	pkgver = r0.g1acd7be
+	pkgrel = 1
+	url = http://zatherz.github.io/
+	arch = x86_64
+	arch = i686
+	license = GPLv2
+	makedepends = git
+	makedepends = make
+	source = git://github.com/Zatherz/liborbos
+	md5sums = SKIP
+
+pkgname = liborbos-math-git
+	pkgdesc = Math library from LibOrbos set
+	provides = liborbos-math
+	conflicts = liborbos-math
+
+pkgname = liborbos-text-git
+	pkgdesc = Text library from LibOrbos set
+	provides = liborbos-text
+	conflicts = liborbos-text
+
+pkgname = liborbos-string-git
+	pkgdesc = Dynamic string library from LibOrbos set
+	provides = liborbos-string
+	conflicts = liborbos-string
+
